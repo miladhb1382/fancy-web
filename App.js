@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Menu from "./project10/components/Menu";
+import Menu from "./components/Menu";
 import { BrowserRouter, Route } from "react-router-dom";
-import HomePage from "./project10/components/Pages/HomePage";
-import MovieList from "./project10/components/Pages/see";
-import About from "./project10/components/Pages/about";
-import FavoritMovie from "./project10/components/Pages/App-favorit";
-import Login from "./project10/login";
+import HomePage from "./components/Pages/HomePage";
+import MovieList from "./components/Pages/see";
+import About from "./components/Pages/about";
+import FavoritMovie from "./components/Pages/App-favorit";
+import Login from "./login";
 import "./index.css";
 export default function App() {
   const [favorit, setFavorit] = useState([]);
